@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 const ExerciseThree = () => {
-    document.title = 'exercise3';
+    document.title = '#3';
 
     const [count,setCount] = useState(0);
     return (

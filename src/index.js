@@ -5,6 +5,8 @@ import ExerciseOne from './pages/ExerciseOne';
 import ExerciseTwo from './pages/ExerciseTwo';
 import ExerciseThree from './pages/ExerciseThree';
 import ExerciseFour from './pages/ExerciseFour';
+import ExerciseFive from './pages/ExerciseFive';
+import ExerciseSix from './pages/ExerciseSix';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
@@ -16,6 +18,8 @@ export default function App() {
           <Route path="ExerciseTwo" element={<ExerciseTwo />} />          
           <Route path="ExerciseThree" element={<ExerciseThree />} />
           <Route path="ExerciseFour" element={<ExerciseFour />} />
+          <Route path="ExerciseFive" element={<ExerciseFive />} />
+          <Route path="ExerciseSix" element={<ExerciseSix />} />
           {/* <Route path="*" element={<NoPage />} />           */}
         </Route>
       </Routes>

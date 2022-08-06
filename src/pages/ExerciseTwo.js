@@ -1,6 +1,6 @@
 
 const ExerciseTwo = () => {
-    document.title = 'exercise2';
+    document.title = '#2';
     return (
         <div className='text-center mt-5'>
             <h1>Exercise #2</h1>

@@ -1,7 +1,7 @@
 
 
-const ExerciseFour = () => {
-    document.title = '#4';
+const ExerciseFive = () => {
+    document.title = '#5';
     const animals = ['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse'];
     return (
         <div className='text-center mt-5'>
@@ -11,11 +11,15 @@ const ExerciseFour = () => {
                 Use the map function to render them in an unordered list:</p>
             <div>
                 {animals.map(items =>
-                    <ul>{items}</ul>
-                    )}                
+                    <ul>
+                        <li>
+                            {items}
+                        </li>
+                    </ul>
+                )}
             </div>
         </div>
     );
 }
 
-export default ExerciseFour;
+export default ExerciseFive;

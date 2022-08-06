@@ -16,8 +16,8 @@ function Layout() {
                             <Nav.Link href="/ExerciseTwo">Exercise 2</Nav.Link>
                             <Nav.Link href="/ExerciseThree">Exercise 3</Nav.Link>
                             <Nav.Link href="/ExerciseFour">Exercise 4</Nav.Link>
-                            <Nav.Link href="#">Exercise 5</Nav.Link>
-                            <Nav.Link href="#">Exercise 6</Nav.Link>
+                            <Nav.Link href="/ExerciseFive">Exercise 5</Nav.Link>
+                            <Nav.Link href="/ExerciseSix">Exercise 6</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

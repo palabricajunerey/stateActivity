@@ -1,7 +1,7 @@
 
 
 const ExerciseOne = () => {
-    document.title = 'exercise1';
+    document.title = '#1';
     return (
         <div className='text-center mt-5'>
             <h1>Exercise #1</h1>
