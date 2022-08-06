@@ -17,7 +17,7 @@ const ExerciseSix = () => {
             'First Name' : fName,
             'Last Name' : lName
         }
-        alert("Hello "+frmdetails['First Name']+" "+frmdetails['Last Name']);
+        alert("Hello "+frmdetails['First Name']+" "+frmdetails['Last Name']+"!");
     }
 
     return (
